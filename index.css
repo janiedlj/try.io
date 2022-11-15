@@ -12,9 +12,14 @@
 	background-color: #020202 !important;
 	padding-right: 1rem;
 	padding-left: 1rem;
-	position: sticky;
+	position: fixed;
 	top: 0px;
+	width: 100%;
 	z-index: 1;
+	box-shadow: 1px 1px 1px #3e3c41;
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 18px !important;
+	color: #0ffbf9;
 }
 
 #menu {
@@ -42,22 +47,45 @@
 	text-align: left;
 }
 
+#subtitle-2 {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #0ffbf9;
+	text-align: center;
+}
+
 #bg-red {
 	background-color: #cc0f39;
-	z-index: 2;
 }
 
 #bg-blue {
 	background-color: #0ffbf9;
-	z-index: 3;
 }
 
 #bg-black {
 	background-color: #020202;
-	z-index: 4;
 }
 
-#about {
+#bg-dgray {
+	background-color: #3e3c41;
+	color: #fdfefe;
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 20px !important;
+	text-align: center;
+}
+#bg-lgray {
+	background-color: #3e3c41;
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #0ffbf9;
+	text-align: left !important;
+}
+
+#bg-white {
+	background-color: #fdfefe;
+}
+
+#about, #projects, #experience, #contact {
 	background-color: #020202;
 	background-size: 100vh;
 	color: #fdfefe;
@@ -70,4 +98,25 @@
 	font-family: 'Tomorrow', sans-serif !important;
 	color: #0ffbf9;
 	text-align: left;
+}
+
+#content {
+	color: #fdfefe;
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 1.0rem !important;
+	text-align: center;
+}
+
+#content-blk {
+	color: #020202;
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 1.0rem !important;
+	text-align: center;
+}
+
+#accordion-title {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #0ffbf9;
+	text-align: center;
 }
