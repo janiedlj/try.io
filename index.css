@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth !important;
+}
+
 #home {
 	background-color: #020202;
 	background-image: url("./src/img/endless-constellation.png");
@@ -133,6 +137,12 @@
 	font-size: 1.0rem !important;
 }
 
+#content-ylw {
+	color: #cdc764;
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 1.0rem !important;
+}
+
 #content-blk {
 	color: #020202;
 	font-family: 'Cutive Mono', monospace !important;
@@ -148,6 +158,30 @@
 	text-decoration: none;
 }
 
+#highlight {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #cc0f39;
+	text-align: center;
+	text-decoration: none;
+}
+
+#highlight-left {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #cc0f39;
+	text-align: left;
+	text-decoration: none;
+}
+
+#emphasis {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #cdc764;
+	text-align: center;
+	text-decoration: none;
+}
+
 #button {
 	font-family: 'Tomorrow', sans-serif !important;
 	font-size: 1.5rem !important;
@@ -160,10 +194,10 @@
 #button:hover {
 	font-family: 'Tomorrow', sans-serif !important;
 	font-size: 1.5rem !important;
-	color: #020202;
+	color: #fdfefe;
 	text-align: left;
 	text-decoration: none;
-	background-color: #fdfefe;
+	background-color: #cc0f39;
 }
 
 #socmed-logo {
