@@ -73,15 +73,23 @@
 						<div class="p-3 col-12 col-lg-2 order-1 order-lg-1">
 							<p id="title-2" class="text-center text-lg-left">ABOUT.</p>
 						</div>
-						<div class="col-lg-6 py-5 mt-5 order-3 order-lg-2 text-justify text-lg-left">
+						<div class="col-12 col-lg-6 py-5 mt-5 order-3 order-lg-2 text-justify text-lg-left">
 							<p>I am Janielene Jardeleza. Since my name is pretty long, please call me Janie. I am an aspiring web developer and a passionate learner. I don't hesitate to invest in acquiring new sets of skills for my greater adaptability.</p>
 							<p>In depths of my knowledge, I am eager to share what I have learned because I believe to learn more is to share it.</p>
 							<p>Would you like for me to share the skills I have by being my client?</p>
 							<p><a id="menu" href="#contact"> Let us build it together!</a></p>
+							<div class="py-5 mt-1 d-flex d-lg-block justify-content-center">								
+								<img id="tools-logo" src="./src/img/html.png">								
+								<img id="tools-logo" src="./src/img/javascript.png">								
+								<img id="tools-logo" src="./src/img/css.png">						
+								<img id="tools-logo" src="./src/img/bootstrap.png">								
+								<img id="tools-logo" src="./src/img/git.png">								
+								<img id="tools-logo" src="./src/img/wordpress.png">								
+							</div>
 						</div>
-						<div class="col-lg-4 py-5 mt-5 order-2 order-lg-3 d-flex justify-content-center d-lg-block">
+						<div class="col-12 col-lg-4 p-5 my-5 order-2 order-lg-3 d-flex d-lg-block justify-content-center">
 							<img src="./src/img/janie-avatar.png" class="w-75">
-						</div>
+						</div>						
 					</div>
 				</section>
 			<!-- End of About Page -->
@@ -172,11 +180,11 @@
 			<!-- Start of Contact -->
 
 				<div id="contact" class="container-fluid d-flex justify-content-around p-5 w-100 h-100">
-					<div class="row w-100 p-5">						
-						<div class="col-12 col-lg-4">
+					<div class="row w-100 py-5">						
+						<div class="col-12 col-lg-5 px-5">
 							<p id="title-2" class="text-center text-lg-left">CONTACT.</p>
 						</div>
-						<div class="col-12 col-lg-8 p-5">
+						<div class="col-12 col-lg-7 p-1 p-md-5">
 								<form class="p-3 w-75" id="myForm">
 									<div class="form-group d-block">
 									  <label for="exampleFormControlInput1">Name</label>
@@ -201,6 +209,27 @@
 				</div>
 
 			<!-- End of Contact -->
+
+			<!-- Start of Modal -->
+			<div class="modal" tabindex="-1" id="myModal">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title">Thank you for contacting us!</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <p>Message Successfully Sent</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="button">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- End of Modal -->
 
 			<!-- Start of Footer -->
 
