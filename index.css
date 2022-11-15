@@ -8,6 +8,9 @@
 	background-attachment: fixed !important;
 }
 
+
+
+
 #navbar {
 	background-color: #020202 !important;
 	padding-right: 1rem;
@@ -16,15 +19,37 @@
 	top: 0px;
 	width: 100%;
 	z-index: 1;
-	box-shadow: 1px 1px 1px #3e3c41;
 	font-family: 'Tomorrow', sans-serif !important;
 	font-size: 18px !important;
 	color: #0ffbf9;
 }
 
 #menu {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #0ffbf9;
+	text-align: left;
+	text-decoration: none;
+}
+
+
+#menu:link, a:link {
 	color: #0ffbf9 !important;
 }
+
+#menu:visited, a:link {
+	color: #0ffbf9 !important;
+}
+
+#menu:hover, a:link {
+	color: #fdfefe !important;
+}
+
+#menu:active, a:link {
+	color: #fdfefe !important;
+	text-decoration: line-through;
+}
+
 
 #welcome {
 	font-family: 'Cutive Mono', monospace !important;
@@ -67,11 +92,12 @@
 }
 
 #bg-dgray {
-	background-color: #3e3c41;
+	background-color: #020202;
 	color: #fdfefe;
 	font-family: 'Cutive Mono', monospace !important;
 	font-size: 20px !important;
 	text-align: center;
+	list-style: none;
 }
 #bg-lgray {
 	background-color: #3e3c41;
@@ -79,6 +105,7 @@
 	font-size: 1.5rem !important;
 	color: #0ffbf9;
 	text-align: left !important;
+	width: 100%;
 }
 
 #bg-white {
@@ -104,7 +131,6 @@
 	color: #fdfefe;
 	font-family: 'Cutive Mono', monospace !important;
 	font-size: 1.0rem !important;
-	text-align: center;
 }
 
 #content-blk {
@@ -118,5 +144,25 @@
 	font-family: 'Tomorrow', sans-serif !important;
 	font-size: 1.5rem !important;
 	color: #0ffbf9;
-	text-align: center;
+	text-align: left;
+	text-decoration: none;
 }
+
+#button {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #020202;
+	text-align: left;
+	text-decoration: none;
+	background-color: #0ffbf9;
+}
+
+#button:hover {
+	font-family: 'Tomorrow', sans-serif !important;
+	font-size: 1.5rem !important;
+	color: #020202;
+	text-align: left;
+	text-decoration: none;
+	background-color: #fdfefe;
+}
+

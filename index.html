@@ -21,29 +21,29 @@
 
 		<div>
 			<nav id="navbar" class="navbar navbar-expand-lg">
-			  <a class="navbar-brand" href="#">
+			  <a class="" href="#">
 			  	<img src="./src/img/logo.png" class="w-25">
 			  </a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
-			  </button>
+			 	 </button> 
 
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav ml-auto" id="menu">
 			      <li class="nav-item active px-3">
-			        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#home" id="menu">Home<span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item px-3">
-			        <a class="nav-link" href="#about">About</a>
+			        <a class="nav-link" href="#about" id="menu">About</a>
 			      </li>
 			      <li class="nav-item px-3">
-			        <a class="nav-link" href="#projects">Projects</a>
+			        <a class="nav-link" href="#projects" id="menu">Projects</a>
 			      </li>
 			      <li class="nav-item px-3">
-			        <a class="nav-link" href="#experience">Experience</a>
+			        <a class="nav-link" href="#experience" id="menu">Experience</a>
 			      </li>
 			      <li class="nav-item px-3">
-			        <a class="nav-link" href="#contact">Contact</a>
+			        <a class="nav-link" href="#contact" id="menu">Contact</a>
 			      </li>
 			    </ul>
 			  </div>
@@ -73,10 +73,10 @@
 							<p id="title-2" class="text-center text-lg-left">ABOUT.</p>
 						</div>
 						<div class="col-lg-6 py-5 mt-5 order-3 order-lg-2 text-justify text-lg-left">
-							<p>I am Janielene Jardeleza. Since my name is pretty long, please call me Janie. I am an aspiring web developer and a passionate learner. I don't hesitate to invest in acquiring new sets of skills for my greater adapatibility.</p>
+							<p>I am Janielene Jardeleza. Since my name is pretty long, please call me Janie. I am an aspiring web developer and a passionate learner. I don't hesitate to invest in acquiring new sets of skills for my greater adaptability.</p>
 							<p>In depths of my knowledge, I am eager to share what I have learned because I believe to learn more is to share it.</p>
 							<p>Would you like for me to share the skills I have by being my client?</p>
-							<p><a id="accordion-title" href="#contact"> Let us build it together!</a></p>
+							<p><a id="menu" href="#contact"> Let us build it together!</a></p>
 						</div>
 						<div class="col-lg-4 py-5 mt-5 order-2 order-lg-3 d-flex justify-content-center d-lg-block">
 							<img src="./src/img/janie-avatar.png" class="w-75">
@@ -86,26 +86,25 @@
 			<!-- End of About Page -->
 
 			<!-- Start Projects Page -->
-				<section id="projects" class="container-fluid d-flex justify-content-around p-5 w-100 h-100">
+				<section id="projects" class="container-fluid p-5 w-100 h-100">
 					<div class="row p-5">
-							<div class="col-12 col-lg-12">
-								<p id="title-2" class="text-center text-lg-right">PROJECTS.</p>
+							<div class="col-12 col-lg-3">
+								<p id="title-2" class="text-center text-lg-left mx-2">PROJECTS.</p>
 							</div>
-							<div class="p-4 mx-2 col-12 col-lg-3 w-50">
-								<img class="w-100" src="./src/img/in-progress.png">
-								<p id="subtitle-2" class="pt-1">Capstone 1</p>
-								<p id="content">Bootstrap | CSS | HTML</p>
+							<div class="p-5 mt-5 col-12 col-md-4 col-lg-3 w-25">
+								<img class="w-100" src="./src/img/capstone1.jpg">
+								<p id="subtitle-2" class="pt-1">Capstone 1</p>								
+								<p id="content" class="text-center">Web Portfolio created during my Zuitt Coding Bootcamp 2022.</p>
+								<p id="content" class="text-center">Bootstrap | CSS | HTML | Gitlab</p>
 							</div>
-							<div class="p-4 mx-2 col-12 col-lg-3 w-50">
+							<div class="p-5 mt-5 col-12 col-md-4 col-lg-3 w-25">
 								<img class="w-100 shadow" src="./src/img/in-progress.png">
 								<p id="subtitle-2" class="pt-1">Capstone 2</p>
 							</div>
-							<div class="p-4 mx-2 col-12 col-lg-3 w-50">
+							<div class="p-5 mt-5 col-12 col-md-4 col-lg-3 w-25">
 								<img class="w-100" src="./src/img/in-progress.png">
 								<p id="subtitle-2" class="pt-1">Capstone 3</p>
 							</div>
-						
-						
 					</div>
 																						
 				</section>
@@ -117,80 +116,49 @@
 					<div class="col-12 col-lg-4">
 						<p id="title-2" class="text-center text-lg-left">EXPERIENCE.</p>
 					</div>
-					<div class="container-fluid w-100 col-10 col-lg-8 p-4 my-5">
-						<div class="accordion" id="accordionExample">
+					<div class="container-fluid d-flex justify-content-center flex-column w-100 col-10 col-lg-8 p-4 my-5">
 
-						  <div class="card" id="bg-lgray">
-						    <div class="card-header" id="headingOne">
-						      <h5 class="mb-0">
-						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						         <p id="accordion-title">IT Software Staff @ San Jose del Monte Savings and Credit Cooperative</p>
-						         <p id="content" class="text-left">Jun 2020 - Oct 2022</p>
-						        </button>
-						      </h5>
-						    </div>
-
-						    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-						      <div class="card-body" id="bg-dgray">
-						      	<ul class="text-left">
-						      		<li>Website update and maintenance</li>
-						      		<li>Documentation of IT implementations and system manuals with flowcharts</li>
-						      		<li>System testing</li>
-						      		<li>Managing data of reports</li>
-						      		<li>Safekeeping of billing records</li>
-						      		<li>Training employees and cooperative member</li>
-						      	</ul> 
-						      </div>
-						    </div>
-						  </div>
-
-						  <div class="card" id="bg-lgray">
-						    <div class="card-header" id="headingOne">
-						      <h5 class="mb-0">
-						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-						         <p id="accordion-title">Clerk / Date Encoder @ City Government of San Jose del Monte</p>
-						         <p id="content" class="text-left">Oct 2017 - Feb 2019</p>
-						        </button>
-						      </h5>
-						    </div>
-
-						    <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-						      <div class="card-body" id="bg-dgray">
-						      	<ul class="text-left">
-						      		<li>Printing and releasing of business permits</li>
-						      		<li>Safekeeping of records</li>
-						      		<li>Encoding inspection reports and other business correspondence</li>
-						      		<li>Designing certificates and invitations for seminars</li>
-						      		<li>Assisting clients for Assistance for Individuals in Crisis Situation</li>
-						      	</ul> 
-						      </div>
-						    </div>
-						  </div>
-
-						  <div class="card" id="bg-lgray">
-						    <div class="card-header" id="headingOne">
-						      <h5 class="mb-0">
-						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
-						         <p id="accordion-title">Faculty Member @ Our Lady of Fatima University</p>
-						         <p id="content" class="text-left">Oct 2017 - Feb 2019</p>
-						        </button>
-						      </h5>
-						    </div>
-
-						    <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-						      <div class="card-body" id="bg-dgray">
-						      	<ul class="text-left">
-						      		<li>Teaching Senior High School students in the subjects of Information and Communications Technology (ICT), Statistics and Probability 1 and Research 1</li>
-						      		<li>Recording of grades</li>
-						      		<li>Documenting for accreditation reports</li>
-						      		<li>Conducting student consultations</li>
-						      	</ul> 
-						      </div>
-						    </div>
-						  </div>
+						<div id="accordion-title" class="px-1 pt-2">
+						    <p>IT Software Staff @ San Jose del Monte Savings and Credit Cooperative</p>
+						    <p id="content">Jan 2020 - Oct 2022</p>					    
+						 </div>
+						   <div class="card card-body" id="bg-dgray">
+							   <ul class="text-left" id="bg-dgray">
+							   	<li>Website update and maintenance</li>
+							   	<li>Documentation of IT implementations and system manuals with flowcharts</li>
+							   	<li>System testing</li>
+							   	<li>Managing data of reports</li>
+							   	<li>Safekeeping of billing records</li>
+							   	<li>Training employees and cooperative member</li>
+							   </ul>
+						 	</div>
+						 
+						 <div id="accordion-title" class="px-1 pt-2">
+						    <p>Clerk / Date Encoder @ City Government of San Jose del Monte</p>	
+						    <p id="content">Oct 2017 - Feb 2019</p>					    
+						 </div>
+						    <div class="card card-body" id="bg-dgray">
+						 	   <ul class="text-left" id="bg-dgray">
+						 	   	<li>Printing and releasing of business permits</li>
+						 	   	<li>Safekeeping of records</li>
+						 	   	<li>Encoding inspection reports and other business correspondence</li>
+						 	   	<li>Designing certificates and invitations for seminars</li>
+						 	   	<li>Assisting clients for Assistance for Individuals in Crisis Situation</li>
+						 	   </ul>
+						  	</div>
 						  
-						  
-						</div>
+						 <div id="accordion-title" class="px-1 pt-2">
+						    <p>Faculty Member @ Our Lady of Fatima University</p>
+						    <p id="content">Jun 2016 - Mar 2017</p>						    
+						 </div>
+						    <div class="card card-body" id="bg-dgray">
+						 	   <ul class="text-left" id="bg-dgray">
+						 	   	<li>Teaching Senior High School students in the subjects of Information and Communications Technology (ICT), Statistics and Probability 1 and Research 1</li>
+						 	   	<li>Recording of grades</li>
+						 	   	<li>Documenting for accreditation reports</li>
+						 	   	<li>Conducting student consultations</li>
+						 	   </ul>
+						  	</div>	
 					</div>
 				</div>
 								
@@ -204,11 +172,11 @@
 
 				<div id="contact" class="container-fluid d-flex justify-content-around p-5 w-100 h-100">
 					<div class="row w-100 p-5">						
-						<div class="col-12 col-lg-12">
-							<p id="title-2" class="text-center text-lg-right">CONTACT.</p>
+						<div class="col-12 col-lg-4">
+							<p id="title-2" class="text-center text-lg-left">CONTACT.</p>
 						</div>
-						<div class="col-12 col-lg-7 p-1">
-								<form class="p-3" id="myForm">
+						<div class="col-12 col-lg-8 p-5">
+								<form class="p-3 w-75" id="myForm">
 									<div class="form-group d-block">
 									  <label for="exampleFormControlInput1">Name</label>
 									  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required>
@@ -225,7 +193,7 @@
 								    <label for="exampleFormControlTextarea1">Message</label>
 								    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
 								  </div>
-								  <button type="submit" id="bg-blue" class="btn mb-2" onclick="openModal()">Submit</button>
+								  <button type="submit" id="button" class="btn mb-2" onclick="openModal()">Submit</button>
 								</form>
 						</div>
 					</div>
@@ -259,7 +227,21 @@
 	<!-- Start of JS Dependecies -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<script type="text/javascript">
+			$("#myForm").submit(function(e){
+			    $('#myModal').modal('show');
+			    return false;
+			});  
+
+			$('#myModal').on('hidden.bs.modal', function () {
+			 location.reload();
+			}) 
+		</script>
 	<!-- End of JS Dependecies -->
+
+
 
 </body>
 </html>
