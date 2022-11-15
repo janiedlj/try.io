@@ -1,0 +1,73 @@
+#home {
+	background-color: #020202;
+	background-image: url("./src/img/endless-constellation.png");
+	min-height: 100vh !important;
+	background-color: gray !important;
+	background-size: 100% !important;
+	background-position: center top !important;
+	background-attachment: fixed !important;
+}
+
+#navbar {
+	background-color: #020202 !important;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+}
+
+#menu {
+	color: #0ffbf9 !important;
+}
+
+#welcome {
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 1.5rem !important;
+	color: #fdfefe;
+	text-align: left;
+}
+
+#title-1 {
+	font-size: 5rem !important;
+	font-family: 'Tomorrow', sans-serif !important;
+	color: #0ffbf9;
+	text-align: left;
+}
+
+#subtitle {
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 2rem !important;
+	color: #fdfefe;
+	text-align: left;
+}
+
+#bg-red {
+	background-color: #cc0f39;
+	z-index: 2;
+}
+
+#bg-blue {
+	background-color: #0ffbf9;
+	z-index: 3;
+}
+
+#bg-black {
+	background-color: #020202;
+	z-index: 4;
+}
+
+#about {
+	background-color: #020202;
+	background-size: 100vh;
+	color: #fdfefe;
+	font-family: 'Cutive Mono', monospace !important;
+	font-size: 1.5rem !important;
+}
+
+#title-2 {
+	font-size: 3rem !important;
+	font-family: 'Tomorrow', sans-serif !important;
+	color: #0ffbf9;
+	text-align: left;
+}
